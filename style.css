@@ -154,8 +154,8 @@ a {
 }
 
 ul, li {
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -187,38 +187,6 @@ blockquote {
   font-size: 1.25rem;
   /* 9 */
   line-height: 1.25;
-}
-
-nav a,
-.nav-collapse a,
-header a {
-  color: #8d8d8d;
-  text-transform: capitalize;
-}
-
-header.top img {
-  /* 3 */
-  /* 3 */
-  /* 4 */
-  /* 6 */
-  /* 6 */
-  /* 7 */
-  /* 4 */
-  /* 5 */
-  /* 4 */
-  /* 6 */
-  /* 6 */
-  /* 7 */
-  /* 4 */
-  /* 6 */
-  /* 6 */
-  /* 7 */
-  margin: 12px 0 12px 12px;
-  /* 9 */
-  margin: 1.2rem 0 1.2rem 1.2rem;
-  /* 9 */
-  max-width: 150px;
-  float: left;
 }
 
 .text-left {
@@ -524,6 +492,21 @@ button.btn.blue:hover {
   background-color: #0c7cd5;
 }
 
+header.nav {
+  position: fixed;
+  width: 100%;
+  color: #ffffff;
+  z-index: 999;
+}
+
+header.sticky {
+  background: #1F1F1F;
+}
+
+header.nav a {
+  color: #ffffff;
+}
+
 .nav-collapse {
   position: absolute;
   width: 24%;
@@ -542,7 +525,6 @@ button.btn.blue:hover {
 }
 
 .nav-collapse a {
-  color: #029341;
   box-sizing: border-box;
   -webkit-transition: background .3s ease;
   transition: background .3s ease;
@@ -563,8 +545,29 @@ button.btn.blue:hover {
   display: none;
 }
 
-.row.fixed {
-  z-index: 9999;
+header img {
+  /* 3 */
+  /* 3 */
+  /* 4 */
+  /* 6 */
+  /* 6 */
+  /* 7 */
+  /* 4 */
+  /* 5 */
+  /* 4 */
+  /* 6 */
+  /* 6 */
+  /* 7 */
+  /* 4 */
+  /* 6 */
+  /* 6 */
+  /* 7 */
+  margin: 12px 0 12px 12px;
+  /* 9 */
+  margin: 1.2rem 0 1.2rem 1.2rem;
+  /* 9 */
+  max-width: 150px;
+  float: left;
 }
 
 .row.white {
@@ -1168,8 +1171,30 @@ section.module.parallax-contact {
   }
 }
 @media only screen and (max-width: 767px) {
+  header.nav,
+  header.sticky {
+    background: #1F1F1F;
+  }
+
   section.module.parallax.main-image {
     background-attachment: inherit;
+  }
+
+  .nav-collapse ul {
+    /* 3 */
+    /* 3 */
+    /* 4 */
+    /* 5 */
+    /* 4 */
+    /* 6 */
+    /* 6 */
+    /* 7 */
+    padding: 0 15px;
+    /* 9 */
+    padding: 0 1.5rem;
+    /* 9 */
+    max-width: 600px;
+    margin: auto;
   }
 
   .nav-collapse a {
@@ -1179,24 +1204,22 @@ section.module.parallax-contact {
     /* 6 */
     /* 6 */
     /* 7 */
-    padding: 10px;
+    padding: 12px;
     /* 9 */
-    padding: 1rem;
+    padding: 1.2rem;
+    /* 9 */
+    /* 3 */
+    /* 3 */
+    /* 4 */
+    /* 6 */
+    /* 6 */
+    /* 7 */
+    font-size: 12px;
+    /* 9 */
+    font-size: 1.2rem;
     /* 9 */
     position: relative;
-  }
-  .nav-collapse a:before {
-    position: absolute;
-    background: #029341;
-    background: #029341;
-    background: -webkit-linear-gradient(left, #029341 1%, #02cd5a 100%);
-    background: linear-gradient(to right, #029341 1%, #02cd5a 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#029341', endColorstr='#02cd5a',GradientType=1 );
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    content: "";
+    border-bottom: 1px solid #626262;
   }
 
   .nav-collapse {
@@ -1231,11 +1254,6 @@ section.module.parallax-contact {
   }
 
   .nav-collapse a:hover {
-    background: #029341;
-    background: #029341;
-    background: -webkit-linear-gradient(left, #029341 1%, #02cd5a 100%);
-    background: linear-gradient(to right, #029341 1%, #02cd5a 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#029341', endColorstr='#02cd5a',GradientType=1 );
     color: white;
   }
 
@@ -1258,13 +1276,12 @@ section.module.parallax-contact {
   }
 
   .nav-toggle:before {
-    color: #029341;
-    /* Edit this to change the icon color */
+    color: #ffffff;
     font-family: "responsivenav";
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
-    font-size: 28px;
+    font-size: 20px;
     text-transform: none;
     position: absolute;
     content: "\2261";
@@ -1289,7 +1306,7 @@ section.module.parallax-contact {
     width: 130px;
   }
 
-  header.top img {
+  header img {
     /* 3 */
     /* 3 */
     /* 4 */
@@ -1351,19 +1368,6 @@ section.module.parallax-contact {
 
   .nav-collapse a:hover {
     position: relative;
-  }
-  .nav-collapse a:hover:before {
-    position: absolute;
-    background: #029341;
-    background: #029341;
-    background: -webkit-linear-gradient(left, #029341 1%, #02cd5a 100%);
-    background: linear-gradient(to right, #029341 1%, #02cd5a 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#029341', endColorstr='#02cd5a',GradientType=1 );
-    height: 2px;
-    top: 0;
-    left: 0;
-    right: 0;
-    content: "";
   }
 
   .nav-collapse ul ul a {
