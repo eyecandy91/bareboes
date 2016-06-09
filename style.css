@@ -354,6 +354,19 @@ textarea {
   text-transform: uppercase;
 }
 
+.font-m {
+  /* 3 */
+  /* 3 */
+  /* 4 */
+  /* 6 */
+  /* 6 */
+  /* 7 */
+  font-size: 16px;
+  /* 9 */
+  font-size: 1.6rem;
+  /* 9 */
+}
+
 .font-xl {
   /* 3 */
   /* 3 */
@@ -365,7 +378,6 @@ textarea {
   /* 9 */
   font-size: 3.2rem;
   /* 9 */
-  font-weight: 700;
 }
 
 .color-white {
