@@ -501,6 +501,7 @@ header.nav {
   color: #ffffff;
   z-index: 999;
   font-weight: 700;
+  background: rgba(255, 255, 255, 0.05) none repeat scroll 0% 0%;
 }
 
 header.sticky {
@@ -1282,7 +1283,7 @@ section.module.parallax-contact {
   }
 
   .nav-toggle.active:before {
-    font-size: 24px;
+    font-size: 20px;
     content: "\78";
     line-height: 57px;
   }
