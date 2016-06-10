@@ -1,0 +1,1 @@
+var navigation=responsiveNav("top-nav",{customToggle:".nav-toggle"});$(window).scroll(function(){$(this).scrollTop()>1?$("header").addClass("sticky"):$("header").removeClass("sticky")});
