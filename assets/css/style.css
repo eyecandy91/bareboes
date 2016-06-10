@@ -345,8 +345,8 @@ textarea {
 
 @font-face {
   font-family: "responsivenav";
-  src: url("assets/fonts/responsive/responsivenav.eot");
-  src: url("assets/fonts/responsive/responsivenav.eot?#iefix") format("embedded-opentype"), url("assets/fonts/responsive/responsivenav.ttf") format("truetype"), url("assets/fonts/responsive/responsivenav.woff") format("woff"), url("assets/fonts/responsive/responsivenav.svg#responsivenav") format("svg");
+  src: url("../fonts/responsive/responsivenav.eot");
+  src: url("../fonts/responsive/responsivenav.eot?#iefix") format("embedded-opentype"), url("../fonts/responsive/responsivenav.ttf") format("truetype"), url("../fonts/responsive/responsivenav.woff") format("woff"), url("../fonts/responsive/responsivenav.svg#responsivenav") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -398,14 +398,6 @@ textarea {
 
 .grey {
   background: #f9f9f9;
-}
-
-.twitter {
-  background: #55acee;
-}
-
-.facebook {
-  background: #3b5998;
 }
 
 .text-white {
@@ -502,7 +494,6 @@ header.nav {
   color: #ffffff;
   z-index: 999;
   font-weight: 700;
-  background: rgba(255, 255, 255, 0.05) none repeat scroll 0% 0%;
 }
 
 header.sticky {
@@ -823,6 +814,7 @@ section.module.parallax {
   background-size: cover;
   background-attachment: scroll;
   position: relative;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 section.module.parallax:before {
@@ -833,21 +825,13 @@ section.module.parallax:before {
   right: 0;
   left: 0;
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC");
-  opacity: 0.6;
-  background: #360033;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #360033, #0b8793);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(right, #360033, #0b8793);
-  background: linear-gradient(to left, #360033, #0b8793);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: #000000;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #000000, #434343);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(right, #000000, #434343);
-  background: linear-gradient(to left, #000000, #434343);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.25;
+}
+
+.parallax .shadow-box {
+  background: transparent -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.3) 0px, transparent 30%, transparent 70%, rgba(0, 0, 0, 0.3)) repeat scroll 0% 0%;
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0px, transparent 30%, transparent 70%, rgba(0, 0, 0, 0.3)) repeat scroll 0% 0%;
+  height: 100%;
 }
 
 section.module.parallax.main-image {
@@ -868,21 +852,19 @@ section.module.parallax-3 {
 }
 
 section.module.parallax-home {
-  background-image: url("https://images.unsplash.com/7/Top_view.jpg?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1194&h=746&q=80");
-  background-image: url("https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?format=auto&amp;auto=compress&amp;dpr=1&amp;crop=entropy&amp;fit=crop&amp;w=1265&amp;h=840&amp;q=80");
+  background-image: url("../img/parallax/home.jpg");
 }
 
 section.module.parallax-service {
-  background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?format=auto&amp;auto=compress&amp;dpr=1&amp;crop=entropy&amp;fit=crop&amp;w=1178&amp;h=785&amp;q=80");
-  background-image: url("https://images.unsplash.com/photo-1429051883746-afd9d56fbdaf?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1265&h=843&q=80");
+  background-image: url("../img/parallax/service.jpg");
 }
 
 section.module.parallax-portfolio {
-  background-image: url("https://images.unsplash.com/photo-1421757381940-5d269570b21c?format=auto&amp;auto=compress&amp;dpr=1&amp;crop=entropy&amp;fit=crop&amp;w=1002&amp;h=666&amp;q=80");
+  background-image: url("../img/parallax/portfolio.jpg");
 }
 
 section.module.parallax-contact {
-  background-image: url("https://images.unsplash.com/photo-1457612928689-a1ab27da0dad?format=auto&amp;auto=compress&amp;dpr=1&amp;crop=entropy&amp;fit=crop&amp;w=1217&amp;h=811&amp;q=80");
+  background-image: url("../img/parallax/contact.jpg");
 }
 
 @media only screen and (min-width: 400px) {
@@ -1154,6 +1136,19 @@ section.module.parallax-contact {
   }
 }
 @media only screen and (max-width: 767px) {
+  .content {
+    /* 3 */
+    /* 3 */
+    /* 4 */
+    /* 6 */
+    /* 6 */
+    /* 7 */
+    padding-top: 55px;
+    /* 9 */
+    padding-top: 5.5rem;
+    /* 9 */
+  }
+
   header.nav,
   header.sticky {
     background: #1F1F1F;
@@ -1296,9 +1291,9 @@ section.module.parallax-contact {
     /* 6 */
     /* 6 */
     /* 7 */
-    font-size: 45px;
+    font-size: 57.5px;
     /* 9 */
-    font-size: 4.5rem;
+    font-size: 5.75rem;
     /* 9 */
   }
 
