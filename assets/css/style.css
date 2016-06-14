@@ -394,6 +394,11 @@ textarea {
   /* 9 */
 }
 
+.module.hero .font-xl {
+  letter-spacing: 3px;
+  line-height: 46px;
+}
+
 .main-heading h1,
 .main-heading h2,
 .main-heading h3,
@@ -909,11 +914,6 @@ section.module.parallax-contact {
   opacity: 1;
 }
 
-.video-hero,
-section.module.video {
-  height: 400px;
-}
-
 @media only screen and (max-width: 399px) {
   .items .single-item:last-child {
     margin: 0;
@@ -1178,10 +1178,14 @@ section.module.video {
     /* 6 */
     /* 6 */
     /* 7 */
-    font-size: 38px;
+    font-size: 60px;
     /* 9 */
-    font-size: 3.8rem;
+    font-size: 6rem;
     /* 9 */
+  }
+
+  .module.hero .font-xl {
+    line-height: 76px;
   }
 
   .pad {
@@ -1406,10 +1410,14 @@ section.module.video {
     /* 6 */
     /* 6 */
     /* 7 */
-    font-size: 57.5px;
+    font-size: 70px;
     /* 9 */
-    font-size: 5.75rem;
+    font-size: 7rem;
     /* 9 */
+  }
+
+  .module.hero .font-xl {
+    line-height: 96px;
   }
 
   .circle {
@@ -1441,8 +1449,7 @@ section.module.video {
     max-width: 200px;
   }
 
-  section.parallax-wrapper,
-  section.module.video {
+  section.parallax-wrapper {
     height: 500px;
   }
 
@@ -1538,11 +1545,6 @@ section.module.video {
     /* 9 */
     font-size: 1.8rem;
     /* 9 */
-  }
-
-  .video-hero {
-    height: 500px;
-    /* Feel free to set a height in your own way */
   }
 }
 @media only screen and (min-width: 1000px) {
