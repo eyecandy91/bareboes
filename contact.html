@@ -1,221 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<script src="assets/js/jquery-2.2.3.min.js"></script>
-	<script src="assets/js/responsive-nav.js"></script>
-	<script src="http://use.fontawesome.com/af74c7b514.js"></script>
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <title>Contact - eZMedia</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="author" content="EZ Media" />
+    <meta name="description" content="If you have any questions about our services, or if you're looking for any advice, get in touch." />
+    <meta property="og:image" content="https://www.ezmedia.co.uk/img/logo-4.png">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Affordable Web Design in Hull - eZMedia - Experts in startups, logo and branding design" />
+    <meta property="og:description" content="Cheap and affordable web design in and around Hull and East Yorkshire. We specialise in new startups, logo and brand design." />
+    <meta property="og:url" content="https://www.ezmedia.co.uk/" />
+    <meta property="og:site_name" content="Affordable Web Design in Hull - eZMedia - Experts in startups, logo and branding design" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="Cheap and affordable web design in and around Hull and East Yorkshire. We specialise in new startups, logo and brand design." />
+    <meta name="twitter:title" content="Affordable Web Design in Hull - eZMedia - Experts in startups, logo and branding design" />
+    <meta name="twitter:site" content="@TH3_Design" />
+    <meta name="twitter:image" content="https://www.ezmedia.co.uk/img/logo-4.png" />
+    <meta name="twitter:creator" content="@TH3_Design" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA39429682-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA39429682-1');
+    </script>
+
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Philosopher" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Philosopher"></noscript>
+
+    <link rel="preload" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"></noscript>
+
+    <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="style.css"></noscript>
 </head>
+
 <body>
-<div class="wrap">
-	<header class="nav">
-	<div class="container">
-		<div role="navigation" id="top-nav" class="nav-collapse">
-			<ul class="uppercase">
-		       <li class="active"><a href="index.html">Home</a></li>
-				<li><a href="service.html">services</a></li>
-				<li><a href="portfolio.html">portfolio</a></li>
-				<li><a href="contact.html">contact</a></li>
-			</ul>
-	    </div>
-    	<a href="#nav" class="nav-toggle">Menu</a>
-   	 	<!-- <img src="assets/img/logo/eye-candy-studios-2.png" alt="" > -->
-	</div>
-</header>
-	<div class="content">
-		<section class="module hero parallax parallax-wrapper parallax-contact">
-			<div class="shadow-box">
-	       		<div class="container medium text-center vertical-center">
-		        	<div class="bleed text-color-secondary text-effect">
-		        		<div class="main-heading">
-			         		<h1 class="font-xl uppercase">Contact Us</h1>
-			         	</div>
-			         	<p>We’re happy to answer any questions you have or provide you with an estimate using the form below. </p>
-			         
-		         	</div>
-		        </div>
-	        </div>
+    <div id="page" class="site">
+
+        <nav id="navbar" class="navbar is-spaced is-fixed-top navbar has-shadow is-spaced is-uppercase">
+            <div class="container">
+                <div class="navbar-brand">
+                    <!-- <div class="logo"> -->
+                    <a class="navbar-item" href="/">
+                        <img class="logo-main" src="img/logo-6.png" alt="" width="80" height="37">
+                    </a>
+                    <!-- </div> -->
+
+                    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navMenuDocumentation" class="navbar-menu">
+                    <div class="navbar-end ">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a id="service" href="/index.html#services">Our services</a></li>
+                            <li><a class="is-active" href="/contact.html">Contact</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="fullscreen-bg__img contact"></div>
+
+        <section class="hero main has-text-centered contact">
+            <div class="hero-body">
+                <div class="fullscreen-bg">
+                    <div></div>
+                </div>
+                <div id="main" class="container">
+                    <!-- <img id="logo-main" src="img/logo-1.png" alt="" width="200" height="35"> -->
+                    <h1 class="title is-1 is-uppercase has-text-white">
+                        Get In Touch
+
+                    </h1>
+                    <!-- <p class="subtitle has-text-white">
+                            Web design and developement
+                        </p> -->
+                    <!-- <div class="field is-grouped is-grouped-centered">
+                            <p class="control">
+                                <a class="button is-medium is-primary">
+                                    Link button goes here
+                                </a>
+                            </p>
+
+                        </div> -->
+                </div>
+            </div>
         </section>
 
-		<section class="module content">
-	        <div class="bleed container ">
-	          	<div class="row text-center">
-	
-							<div class="row grid-items">
-			          			<div class="row col-3">
-			          				<div class="item">
-									
-										<div class="row item">
-											<i class="fa fa-phone fa-3x"></i>
-										</div>
-										<div class="main-heading">
-										<h3 class="item font-m uppercase text-color">096 3737 8678</h3>
-										</div>
-									</div>
-				          		</div>
-			          			<div class="row col-3">
-			          				<div class="item">
-				          			
-				          				<div class="row item">
-											<i class="fa fa-pencil-square-o fa-3x"></i>
-										</div>
-										<div class="main-heading">
-										<h3 class="item font-m uppercase text-color">website@domain.com</h3>
-										</div>
-									</div>
-			          			</div>
-			          			<div class="row col-3">
-			          				<div class="item">
-				          				
-				          				<div class="row item">
-											<i class="fa fa-twitter fa-3x"></i>
-										</div>
-										<div class="main-heading">
-										<h3 class="item font-m uppercase text-color">twitter</h3>
-										</div>
-									</div>
-			          			</div>
-			          			<div class="row col-3">
-			          				<div class="item">
-				          			
-				          				<div class="row item">
-											<i class="fa fa-facebook fa-3x"></i>
-										</div>
-										<div class="main-heading">
-										<h3 class="item font-m uppercase text-color">facebook</h3>
-										</div>
-									</div>
-			          			</div>
-			          		</div>
-					
-		
-						<div class="row item text-left">
-							<div class="container medium">
-								
-			          			<form action="">
-			          				<div class="grid-items">
-				          				<div class="row col-6">
-				          					<fieldset class="form-group">
-											    <label for="exampleInputEmail1" class="uppercase text-green">Business name</label>
-											    <input class="form-control" id="exampleInputEmail1" placeholder="Enter email" type="email">
-										
-										  	</fieldset>
-										  	<fieldset class="form-group">
-											    <label for="exampleInputEmail1" class="uppercase text-green">name</label>
-											    <input class="form-control" id="exampleInputEmail1" placeholder="Enter email" type="email">
-										
-										  	</fieldset>
-										  	<fieldset class="form-group">
-											    <label for="exampleInputEmail1" class="uppercase text-green">email</label>
-											    <input class="form-control" id="exampleInputEmail1" placeholder="Enter email" type="email">
-											 
-										  	</fieldset>
-										  	<fieldset class="form-group">
-											    <label for="exampleInputEmail1" class="uppercase text-green">telephone</label>
-											    <input class="form-control" id="exampleInputEmail1" placeholder="Enter email" type="email">
-											
-										  	</fieldset>
-				          				</div>
-									
-										<div class="row col-6">
-										  	<fieldset class="form-group">
-											    <label for="exampleTextarea" class="uppercase text-green">Example textarea</label>
-											    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-											</fieldset>
-										</div>
-									</div>
-			          			</form>
-	          				</div>
-	          			</div>
+        <section class="hero is-white is-medium">
+            <div class="hero-body">
+                <div class="container small">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="content is-medium">
+                                <h3 class="title is-3 is-uppercase">
+                                    what can we do for you
+                                </h3>
+                                <p>
+                                    If you have any questions about our services, or if you're looking for any advice,
+                                    get in touch. You can use the form below, or give us a call and speak directly with
+                                    our team: +44 (0)20 3463 1122
+                                </p>
+                                <form class="contact-form" action="//www.enformed.io/1g358r47" method="post">
+                                    <div class="columns">
+                                        <div class="column is-full-mobile is-half-tablet is-half-desktop">
+                                            <div class="field">
+                                                <label class="label">Name</label>
+                                                <p class="control has-icons-left">
+                                                    <input required class="input is-medium" name="name" type="text"
+                                                        placeholder="Name" />
+                                                    <span class="icon is-small is-left">
+                                                        <i class="fas fa-user"></i>
+                                                    </span>
+                                                    <!-- <span class="icon is-small is-right">
+                                                    <i class="fas fa-check"></i>
+                                                </span> -->
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- </div> -->
 
-	          			<div class="row item text-center">
-									<small>WE’LL GET BACK TO YOU WITHIN 24 HOURS</small>
-								</div>
-						
-						<div class="text-center">
-				        	<a class="btn" href="#">Send message</a>
-					    </div>
-	          			
-	          		</div>
-	        
-		    </div>
-	    </section>
+                                        <!-- <div class="columns"> -->
+                                        <div class="column is-full-mobile is-half-tablet is-half-desktop">
+                                            <div class="field">
+                                                <label class="label">Email</label>
+                                                <p class="control has-icons-left">
+                                                    <input required class="input is-medium" name="email" type="email"
+                                                        placeholder="Email">
+                                                    <span class="icon is-small is-left">
+                                                        <i class="fas fa-envelope"></i>
+                                                    </span>
+                                                    <!-- <span class="icon is-small is-right">
+                                                <i class="fas fa-check"></i>
+                                            </span> -->
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column is-full-mobile is-half-tablet is-half-desktop">
+                                            <div class="field">
+                                                <label class="label">Telephone</label>
+                                                <p class="control has-icons-left">
+                                                    <input required pattern="^[0-9-+s()]*$" class="input is-medium" name="telephone" type="tel"
+                                                        placeholder="phone">
+                                                    <span class="icon is-small is-left">
+                                                        <i class="fas fa-phone"></i>
+                                                    </span>
+                                                    <!-- <span class="icon is-small is-right">
+                                                    <i class="fas fa-check"></i>
+                                                </span> -->
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- </div> -->
+                                        <!-- <div class="columns"> -->
+                                        <div class="column is-full-mobile is-half-tablet is-half-desktop">
+                                            <div class="field">
+                                                <label class="label">Company</label>
+                                                <p class="control has-icons-left">
+                                                    <input required class="input is-medium" name="company" type="text"
+                                                        placeholder="company">
+                                                    <span class="icon is-small is-left">
+                                                        <i class="fas fa-globe"></i>
+                                                    </span>
+                                                    <!-- <span class="icon is-small is-right">
+                                                        <i class="fas fa-check"></i>
+                                                    </span> -->
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                            <label class="label">Message</label>
+                                        <div class="control">
+                                            <textarea required class="textarea is-medium" placeholder="e.g. Hello world"></textarea>
 
-	</div>
-</div>
-<footer>
-		<section class="module content">
-			<div class="bleed container mediusm">
-			<div class="row items grid-items">	
-				<div class="row">
-					<div class="single-grid-item col-5">
-						<div class="text-color uppercase">
-							<div class="main-heading">
-								<h3>contact us</h3>
-							</div>
-						</div>
-						<address class="item">
-							<span>
-								<i class="fa fa-map-marker single text-color"></i>
-							</span>
-							<span>Keas 69 Str.15234, Chalandri</span>
-				        </address>
-				        <div class="item">
-				            <span>
-				            	<i class="fa fa-pencil-square-o single text-color"></i>
-				            </span>
-							<span><a href="mailto:aaaa@aaaaaa.co.uk;">info@companyname.com</a></span>
-				        </div>
-				            <div class="item email">
-				            <span>
-				            	<i class="fa fa-phone single text-color"></i></span>
-									<span>
-										<a class="tell" href="tel:0000000">123 456 7890</a>
-									</span>
-				            </div>
-				    </div>
+                                        </div>
+                                    </div>
 
-					<div class="single-grid-item col-7">
-						<div class="text-color uppercase">
-							<div class="main-heading">
-								<h3>get in touch</h3>
-							</div>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, unde! <a href="mailto:info@arrivaldesign.co.uk">email us</a> Lorem ipsum dolor sit amet, consectetur adipisicing. </p>
-					</div>	
-				</div>
-				<div class="soical-media">
-					<div class="text-color uppercase">
-						<div class="main-heading">
-							<h3>Connect with us</h3>
-						</div>
-					</div>
-					<ul>
-						<li>
-							<a class="text-white" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-						</li>
-						<li>
-							<a class="text-white" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-						</li>
-						<li>
-							<a class="text-white" href=""><i class="fa fa-skype" aria-hidden="true"></i></a>
-						</li>
-					</ul>					
-				</div>
-				
+                                    <input type="hidden" name="*redirect" value="https://www.yoursite.com" />
+                                    <input type="hidden" name="*default_email" value="ilovecfc@gmail.com" />
+                                    <input type="hidden" name="*formname" value="something name" />
+                                    <input type="hidden" name="*reply" value="email" />
+                                    <input type="hidden" name="*subject" value="Someone is interested" />
 
-			</div>
-			</div>
-		</section>
-		
-		<div class="row text-center text-white">
-			<div class="copyright pad"><small> © Copyright 2016 - 2016 All Rights Reserved | company Ltd - Company No: 0123456 | <a href="#">sitemap</a></small></div>
-		</div>		
-</footer>
+                                    <p>
+                                        This form collects your name, email address and phone number so that we may
+                                        respond
+                                        to you easily. This information will never be sold, rented or given to any
+                                        third
+                                        party. The data given on this form is strictly for our own use.
+                                    </p>
+                                    <div class="field">
+                                        <div class="control">
+                                            <button type="submit" class="button is-primary is-medium">send message</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer hero is-dark">
+
+            <div class="container">
+                <div class="columns content">
+                    <div class="column is-full-mobile is-half-tablet is-half-desktop">
+                        <div class="content has-text-left">
+                            <ul>
+                                <li class="title is-4">Contact us</li>
+                                <li><i class="fas fa-phone-volume"></i>+44 (0)20 4444 7777</li>
+                                <li><i class="fas fa-map-marked-alt"></i>87 Something Street, HULL, WC1N R4X</li>
+                                <li><i class="fas fa-envelope-open"></i>hello@site.co.uk</li>
+                                <li><i class="fab fa-twitter"></i>twitter hadle</li>
+                                <li><i class="fas fa-balance-scale"></i>Terms & conditions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column is-full-mobile is-half-tablet is-half-desktop">
+                        <div class="content has-text-right-tablet">
+                            <img src="img/logo-5.png" alt="" width="60" height="28">
+                        </div>
+                    </div>
+                </div>
+
+                <small class="has-text-centered is-fullwidth is-block">&copy; Copyright 2058, Example Corporation</small>
+
+            </div>
+
+        </footer>
+
+        <script type='text/javascript' src='js/scripts.js'></script>
+
+        <script>
+            $.ajax({
+                method: 'POST',
+                url: 'https://www.enformed.io/1g358r47/',
+                dataType: 'json',
+                accepts: 'application/json',
+                data: your_data,
+                success: (data) => console.log(data),
+                error: (err) => console.log(err)
+            });
+        </script>
+
 </body>
-<script src="assets/js/scripts.js"></script>
+
 </html>

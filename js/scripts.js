@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".navbar-burger").click(function(){$(".navbar-burger").toggleClass("is-active"),$(".navbar-menu").toggleClass("is-active")})}),$("#service").click(function(){$("html, body").animate({scrollTop:$("#services").offset().top},500)}),$(window).scroll(function(){$("#main").css("opacity",1-$(window).scrollTop()/400)});
