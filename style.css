@@ -4126,8 +4126,7 @@ input:required,textarea:required {
     font-size: 2rem;
     font-family: "Exo 2", sans-serif;
     font-weight: 600;
-    line-height: 1.125;
-    letter-spacing: 3px
+    line-height: 1.125
 }
 
 .title strong {
@@ -7608,7 +7607,7 @@ a.panel-block:hover,label.panel-block:hover {
 
 @media screen and (max-width: 767px) {
     .columns .column-is-centered {
-        padding: 3rem 2rem
+        padding: 3rem 1rem
     }
 }
 
