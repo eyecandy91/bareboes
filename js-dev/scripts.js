@@ -9,17 +9,17 @@ $(document).ready(function() {
   
 	});
 
+	$("#service").click(function() {
+		$('html, body').animate({
+			scrollTop: $("#services").offset().top
+		}, 500);
+	});
+	
 	
 });
 
-$("#service").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#services").offset().top
-    }, 500);
-});
-
 $(window).scroll(function(){
-    $("#main").css("opacity", 1 - $(window).scrollTop() / 400);
+	$("#main").css("opacity", 1 - $(window).scrollTop() / 400);
   });
 
 
