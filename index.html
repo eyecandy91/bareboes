@@ -34,11 +34,14 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39429682-2"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-39429682-2');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-39429682-2');
     </script>
 
     <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -163,8 +166,40 @@
     </script>
     <script></script><!-- here to ensure a non-blocking load still occurs in IE and Edge, even if scripts follow loadCSS in head -->
 
-    <script type="application/ld+json">
+    <script type='application/ld+json'>
         {
+            "@context": "https:\/\/schema.org",
+            "@type": "Organization",
+            "url": "https://ez.media",
+            "sameAs": [
+                "",
+                "",
+                ""
+            ],
+            "@id": "https://ez.media#organization",
+            "name": "ezMedia",
+            "logo": ""
+            https: //ez.media/img/logo-6.png
+        }
+    </script>
+
+    <script type='application/ld+json'>
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "WebSite",
+            "@id": "#website",
+            "url": "https://ez.media",
+            "name": "ezMedia Cheap and affordable web design in and around Hull and East Yorkshire.",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://ez.media?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
+
+    <script type='application/ld+json'>
+        < script type = "application/ld+json" > {
             "@context": "http://schema.org",
             "@type": "ProfessionalService",
             "name": "EZ Media",
@@ -203,10 +238,11 @@
 
 </head>
 
-<body>
+<body itemscope="itemscope" itemtype="https://schema.org/WebPage">
     <div id="page" class="site">
 
-        <nav id="navbar" class="navbar is-spaced is-fixed-top navbar has-shadow is-spaced is-uppercase">
+        <nav id="navbar" class="navbar is-spaced is-fixed-top navbar has-shadow is-spaced is-uppercase" itemscope="itemscope"
+            itemtype="https://schema.org/SiteHeader">
             <div class="container">
                 <div class="navbar-brand">
                     <!-- <div class="logo"> -->
@@ -393,7 +429,7 @@
 
     </div>
 
-    <footer class="footer hero is-dark">
+    <footer class="footer hero is-dark" itemscope="itemscope" itemtype="https://schema.org/SiteFooter">
 
         <div class="container">
             <div class="columns content">
