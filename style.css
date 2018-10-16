@@ -2413,8 +2413,8 @@ a.box:active {
 
 .container.small {
     max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px
+    padding-left: 8px;
+    padding-right: 8px
 }
 
 @media screen and (min-width: 1024px) {
