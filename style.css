@@ -198,7 +198,7 @@ table th {
 }
 
 .is-size-1 {
-    font-size: 4.5rem !important
+    font-size: 5rem !important
 }
 
 .is-size-2 {
@@ -227,7 +227,7 @@ table th {
 
 @media screen and (max-width: 767px) {
     .is-size-1-mobile {
-        font-size: 4.5rem !important
+        font-size: 5rem !important
     }
 
     .is-size-2-mobile {
@@ -257,7 +257,7 @@ table th {
 
 @media screen and (min-width: 768px), print {
     .is-size-1-tablet {
-        font-size: 4.5rem !important
+        font-size: 5rem !important
     }
 
     .is-size-2-tablet {
@@ -287,7 +287,7 @@ table th {
 
 @media screen and (max-width: 1023px) {
     .is-size-1-touch {
-        font-size: 4.5rem !important
+        font-size: 5rem !important
     }
 
     .is-size-2-touch {
@@ -317,7 +317,7 @@ table th {
 
 @media screen and (min-width: 1024px) {
     .is-size-1-desktop {
-        font-size: 4.5rem !important
+        font-size: 5rem !important
     }
 
     .is-size-2-desktop {
@@ -347,7 +347,7 @@ table th {
 
 @media screen and (min-width: 1216px) {
     .is-size-1-widescreen {
-        font-size: 4.5rem !important
+        font-size: 5rem !important
     }
 
     .is-size-2-widescreen {
@@ -377,7 +377,7 @@ table th {
 
 @media screen and (min-width: 1408px) {
     .is-size-1-fullhd {
-        font-size: 4.5rem !important
+        font-size: 5rem !important
     }
 
     .is-size-2-fullhd {
@@ -4143,7 +4143,7 @@ input:required,textarea:required {
 }
 
 .title.is-1 {
-    font-size: 4.5rem
+    font-size: 5rem
 }
 
 .title.is-2 {
@@ -4174,7 +4174,13 @@ input:required,textarea:required {
     color: #4a4a4a;
     font-size: 1.25rem;
     font-weight: 400;
-    line-height: 1.25
+    line-height: 1.65
+}
+
+@media screen and (min-width: 768px), print {
+    .subtitle {
+        font-size: 1.5rem
+    }
 }
 
 .subtitle strong {
@@ -4187,7 +4193,7 @@ input:required,textarea:required {
 }
 
 .subtitle.is-1 {
-    font-size: 4.5rem
+    font-size: 5rem
 }
 
 .subtitle.is-2 {
@@ -4605,7 +4611,8 @@ a.dropdown-item.is-active {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: -40px;
+    z-index: -1;
     left: 0;
     overflow: hidden;
     background-position: center
@@ -7602,12 +7609,12 @@ a.panel-block:hover,label.panel-block:hover {
 }
 
 .columns .column-is-centered {
-    padding: 3rem
+    padding: 1rem 2rem
 }
 
 @media screen and (max-width: 767px) {
     .columns .column-is-centered {
-        padding: 3rem 1rem
+        padding: 1.5rem 1rem
     }
 }
 
@@ -7847,7 +7854,7 @@ a.panel-block:hover,label.panel-block:hover {
 .hero #main .subtitle {
     margin-left: auto;
     margin-right: auto;
-    max-width: 690px
+    max-width: 650px
 }
 
 .hero .navbar {
@@ -8595,22 +8602,22 @@ a.panel-block:hover,label.panel-block:hover {
 
 @media screen and (min-width: 768px), print {
     .hero.is-medium .hero-body {
-        padding-bottom: 4rem;
-        padding-top: 4rem
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem
     }
 }
 
 @media screen and (min-width: 1024px) {
     .hero.is-medium .hero-body {
-        padding-bottom: 6rem;
-        padding-top: 6rem
+        padding-bottom: 4rem;
+        padding-top: 4rem
     }
 }
 
 @media screen and (min-width: 768px), print {
     .hero.is-large .hero-body {
-        padding-bottom: 18rem;
-        padding-top: 18rem
+        padding-bottom: 10rem;
+        padding-top: 10rem
     }
 }
 
@@ -8693,7 +8700,7 @@ a.panel-block:hover,label.panel-block:hover {
 .hero-body {
     flex-grow: 1;
     flex-shrink: 0;
-    padding: 3rem 0;
+    padding: 1rem 0;
     overflow: hidden
 }
 
@@ -8708,7 +8715,7 @@ a.panel-block:hover,label.panel-block:hover {
 }
 
 .section {
-    padding: 3rem 1.5rem
+    padding: 1.5rem 1rem
 }
 
 @media screen and (min-width: 1024px) {
@@ -8754,4 +8761,113 @@ a.panel-block:hover,label.panel-block:hover {
 
 .footer small {
     margin-top: 3rem
+}
+
+@-moz-keyframes bounce {
+    0%,20%,50%,80%,100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    40% {
+        -moz-transform: translateY(-30px);
+        transform: translateY(-30px)
+    }
+
+    60% {
+        -moz-transform: translateY(-15px);
+        transform: translateY(-15px)
+    }
+}
+
+@-webkit-keyframes bounce {
+    0%,20%,50%,80%,100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    40% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px)
+    }
+
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px)
+    }
+}
+
+@keyframes bounce {
+    0%,20%,50%,80%,100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px)
+    }
+
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px)
+    }
+}
+
+i {
+    display: block;
+    color: #fff
+}
+
+.arrow {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -10px;
+    width: 20px;
+    z-index: 10;
+    height: 25px
+}
+
+.arrow i {
+    color: rgba(0,209,178,0.8);
+    font-size: 50px
+}
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0
+}
+
+#back-to-top i {
+    font-size: 40px;
+    color: black
+}
+
+#back-to-top.show {
+    opacity: 1
 }
