@@ -7821,6 +7821,20 @@ a.panel-block:hover,label.panel-block:hover {
     background: url(img/7.jpg) center bottom
 }
 
+.hero.home-space {
+    background: url(img/9.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 300px
+}
+
+@media screen and (min-width: 768px), print {
+    .hero.home-space {
+        background-position: center;
+        min-height: 500px
+    }
+}
+
 .hero #main {
     padding: 0 2rem
 }
