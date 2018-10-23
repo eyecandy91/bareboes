@@ -198,7 +198,7 @@ table th {
 }
 
 .is-size-1 {
-    font-size: 4rem !important
+    font-size: 4.5rem !important
 }
 
 .is-size-2 {
@@ -227,7 +227,7 @@ table th {
 
 @media screen and (max-width: 767px) {
     .is-size-1-mobile {
-        font-size: 4rem !important
+        font-size: 4.5rem !important
     }
 
     .is-size-2-mobile {
@@ -257,7 +257,7 @@ table th {
 
 @media screen and (min-width: 768px), print {
     .is-size-1-tablet {
-        font-size: 4rem !important
+        font-size: 4.5rem !important
     }
 
     .is-size-2-tablet {
@@ -287,7 +287,7 @@ table th {
 
 @media screen and (max-width: 1023px) {
     .is-size-1-touch {
-        font-size: 4rem !important
+        font-size: 4.5rem !important
     }
 
     .is-size-2-touch {
@@ -317,7 +317,7 @@ table th {
 
 @media screen and (min-width: 1024px) {
     .is-size-1-desktop {
-        font-size: 4rem !important
+        font-size: 4.5rem !important
     }
 
     .is-size-2-desktop {
@@ -347,7 +347,7 @@ table th {
 
 @media screen and (min-width: 1216px) {
     .is-size-1-widescreen {
-        font-size: 4rem !important
+        font-size: 4.5rem !important
     }
 
     .is-size-2-widescreen {
@@ -377,7 +377,7 @@ table th {
 
 @media screen and (min-width: 1408px) {
     .is-size-1-fullhd {
-        font-size: 4rem !important
+        font-size: 4.5rem !important
     }
 
     .is-size-2-fullhd {
@@ -4143,7 +4143,7 @@ input:required,textarea:required {
 }
 
 .title.is-1 {
-    font-size: 4rem
+    font-size: 4.5rem
 }
 
 .title.is-2 {
@@ -4187,7 +4187,7 @@ input:required,textarea:required {
 }
 
 .subtitle.is-1 {
-    font-size: 4rem
+    font-size: 4.5rem
 }
 
 .subtitle.is-2 {
@@ -7840,7 +7840,14 @@ a.panel-block:hover,label.panel-block:hover {
 }
 
 .hero #main h1,.hero #main .subtitle {
-    text-shadow: 0 1px 10px rgba(10,10,10,0.7)
+    text-shadow: 0 1px 10px rgba(10,10,10,0.7);
+    margin-bottom: 3rem
+}
+
+.hero #main .subtitle {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 690px
 }
 
 .hero .navbar {
