@@ -1322,7 +1322,9 @@ a.box:active {
     padding-left: 0.75em;
     padding-right: 0.75em;
     text-align: center;
-    white-space: nowrap
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: bold
 }
 
 .button:focus,.button.is-focused,.button:active,.button.is-active {
@@ -4678,7 +4680,7 @@ a.dropdown-item.is-active {
 }
 
 .fullscreen-bg div {
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.7);
     min-height: 100%;
     width: 100%
 }
