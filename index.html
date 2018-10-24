@@ -289,15 +289,17 @@
         <section class="hero is-white section has-text-centered slogan">
             <div class="hero-body">
                 <div class="container small content is-medium">
-                    <h2 data-aos="fade-right" class="title is-1 is-size-2-mobile">
-                        Beautiful Web Design
-                    </h2>
-                    <p data-aos="fade-left">
-                        We’re only satisfied with excellence. We offer premium web design services & search
-                        engine optimization. With over 16 years of graphic design experience, we’ll make your
-                        dream website a reality.
-                    </p>
-                    <a data-aos="fade-up" class="button is-neutral is-primary is-medium">Link button goes here</a>
+                    <div data-aos="fade-right">
+                        <h2 class="title is-1 is-size-2-mobile">
+                            Beautiful Web Design
+                        </h2>
+                        <p>
+                            We’re only satisfied with excellence. We offer premium web design services & search
+                            engine optimization. With over 16 years of graphic design experience, we’ll make your
+                            dream website a reality.
+                        </p>
+                    </div>
+                    <a data-aos="fade-down" class="button is-neutral is-primary is-medium">Link button goes here</a>
                 </div>
             </div>
         </section>
@@ -311,20 +313,20 @@
                                 <img src="img/web-design.jpg" alt="something here" width="600" height="400">
                             </div>
                         </div>
-                        <div class="column is-full-mobile is-half-tablet is-half-desktop">
+                        <div data-aos="fade-right" class="column is-full-mobile is-half-tablet is-half-desktop">
                             <div class="column-is-centered content is-medium">
-                                <h3 data-aos="fade-right" class="title is-2 is-size-3-mobile is-uppercase">
+                                <h3  class="title is-2 is-size-3-mobile is-uppercase">
                                     Simple web <span class="has-text-primary">design</span>
                                 </h3>
-                                <p data-aos="fade-left">
+                                <p>
                                     Your brand image is how people view your company, its operations, personnel,
                                     products, and customer service. If your brand is not giving the right messages
                                     or
                                     failing in customer service, people will buy into other brands that give them
                                     more
                                     confidence.
-                                </p data-aos="fade-left">
-                                <div data-aos="fade-up" class="intro-buttons">
+                                </p>
+                                <div class="intro-buttons">
                                     <a class="button is-neutral is-primary is-medium">Link button goes here</a>
                                 </div>
                             </div>
@@ -338,17 +340,17 @@
             <div class="hero-body">
                 <div class="container">
                     <div class="columns">
-                        <div class="column is-full-mobile is-half-tablet is-half-desktop">
+                        <div data-aos="fade-left" class="column is-full-mobile is-half-tablet is-half-desktop">
                             <div class="column-is-centered content is-medium">
-                                <h3 data-aos="fade-right" class="title is-2 is-size-3-mobile is-uppercase">
+                                <h3 class="title is-2 is-size-3-mobile is-uppercase">
                                     Web <span class="has-text-primary">development</span>
                                 </h3>
-                                <p data-aos="fade-left">
+                                <p>
                                     We build websites with a distinct style that stands out and helps you promote
                                     your
                                     business. We cater for small start up businesses to large international firms.
                                 </p>
-                                <div data-aos="fade-up" class="intro-buttons">
+                                <div class="intro-buttons">
                                     <a class="button is-primary is-medium">Link button goes here</a>
                                 </div>
                             </div>
@@ -372,18 +374,18 @@
                                 <img src="img/branding-design.jpg" alt="something goes here" width="600" height="400">
                             </div>
                         </div>
-                        <div class="column is-full-mobile is-half-tablet is-half-desktop">
+                        <div data-aos="fade-right" class="column is-full-mobile is-half-tablet is-half-desktop">
                             <div class="column-is-centered content is-medium">
-                                <h3 data-aos="fade-right" class="title is-2 is-size-3-mobile is-uppercase">
+                                <h3 class="title is-2 is-size-3-mobile is-uppercase">
                                     Branding and <span class="has-text-primary">design</span>
                                 </h3>
-                                <p data-aos="fade-left">
+                                <p>
                                     Want to rank well in Google, Bing & Yahoo, locally or internationally? We’ll show
                                     you what keywords you can actually rank for, and then build your website around
                                     those terms. We call it SEO-Oriented Website Designs. Because whats the point of a
                                     beautiful website if nobody sees it?
                                 </p>
-                                <div data-aos="fade-up" class="intro-buttons">
+                                <div class="intro-buttons">
                                     <a class="button is-primary is-medium">Link button goes here</a>
                                 </div>
                             </div>
@@ -398,17 +400,17 @@
                 <div class="container">
                     <div class="columns">
                         
-                        <div class="column is-full-mobile is-half-tablet is-half-desktop">
+                        <div data-aos="fade-left" class="column is-full-mobile is-half-tablet is-half-desktop">
                             <div class="column-is-centered content is-medium">
-                                <h3 data-aos="fade-right" class="title is-2 is-size-3-mobile is-uppercase">
+                                <h3 class="title is-2 is-size-3-mobile is-uppercase">
                                     Marketing/social media <span class="has-text-primary">management</span>
                                 </h3>
-                                <p data-aos="fade-left">
+                                <p>
                                     We build websites with a distinct style that stands out and helps you promote
                                     your
                                     business. We cater for small start up businesses to large international firms.
                                 </p>
-                                <div data-aos="fade-up" class="intro-buttons">
+                                <div class="intro-buttons">
                                     <a class="button is-primary is-medium">Link button goes here</a>
                                 </div>
                             </div>
@@ -478,6 +480,8 @@
         AOS.init({
             duration: 2000, // values from 0 to 3000, with step 50ms
             once: true, // whether animation should happen only once - while scrolling down
+            offset: 0, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
         });
     </script>
 
