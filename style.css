@@ -4960,10 +4960,15 @@ a.dropdown-item.is-active {
     position: relative
 }
 
-.navbar ul {
-    max-width: 600px;
+.navbar>ul {
     margin: auto;
     padding: 0 1rem
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar>ul {
+        max-width: 600px
+    }
 }
 
 .navbar li {
@@ -5941,6 +5946,37 @@ a.dropdown-item.is-active {
 
     .navbar-item.has-dropdown:hover .navbar-link,.navbar-item.has-dropdown.is-active .navbar-link {
         background-color: whitesmoke
+    }
+}
+
+.nav-extra {
+    background: #0a0a0a;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 5px 0
+}
+
+.nav-extra>div {
+    display: flex
+}
+
+.nav-extra ul {
+    margin-right: -1rem
+}
+
+.nav-extra a {
+    color: white
+}
+
+.nav-extra .social a {
+    margin-right: 1rem
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar>.container {
+        margin-top: 35px
     }
 }
 
