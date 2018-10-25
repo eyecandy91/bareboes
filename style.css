@@ -5958,6 +5958,10 @@ a.dropdown-item.is-active {
     padding: 5px 0
 }
 
+.nav-extra .navbar-end {
+    font-size: 0.8rem
+}
+
 .nav-extra>div {
     display: flex
 }
