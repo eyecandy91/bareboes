@@ -8921,11 +8921,6 @@ a.panel-block:hover,label.panel-block:hover {
     }
 }
 
-i {
-    display: block;
-    color: #fff
-}
-
 .arrow {
     position: fixed;
     bottom: 20px;
