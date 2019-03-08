@@ -7,7 +7,7 @@ var pump = require('pump');
 
 gulp.task('browserSync', function() {
   browserSync.init({
-    proxy: "http://localhost/hputtick.bitbucket.io"
+    proxy: "http://localhost/eyecandy91.github.io"
   })
 })
 
