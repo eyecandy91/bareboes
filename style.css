@@ -1295,8 +1295,6 @@ a.box:active {
     -moz-appearance: none;
     -webkit-appearance: none;
     align-items: center;
-    border: 1px solid transparent;
-    border-radius: 5px;
     box-shadow: none;
     display: inline-flex;
     font-size: 1rem;
@@ -1313,9 +1311,7 @@ a.box:active {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: white;
-    border-color: #dbdbdb;
-    color: #363636;
+    color: rgba(0,209,178,0.6);
     cursor: pointer;
     justify-content: center;
     padding-left: 0.75em;
@@ -1359,7 +1355,6 @@ a.box:active {
 }
 
 .button:hover,.button.is-hovered {
-    border-color: #b5b5b5;
     color: #363636
 }
 
@@ -1401,15 +1396,13 @@ a.box:active {
 }
 
 .button.is-white {
-    background-color: white;
     border-color: transparent;
-    color: #0a0a0a
+    color: rgba(0,209,178,0.6)
 }
 
 .button.is-white:hover,.button.is-white.is-hovered {
-    background-color: #f9f9f9;
-    border-color: transparent;
-    color: #0a0a0a
+    color: #f9f9f9;
+    border-color: transparent
 }
 
 .button.is-white:focus,.button.is-white.is-focused {
@@ -1495,15 +1488,13 @@ a.box:active {
 }
 
 .button.is-black {
-    background-color: #0a0a0a;
     border-color: transparent;
-    color: white
+    color: rgba(0,209,178,0.6)
 }
 
 .button.is-black:hover,.button.is-black.is-hovered {
-    background-color: #040404;
-    border-color: transparent;
-    color: white
+    color: #040404;
+    border-color: transparent
 }
 
 .button.is-black:focus,.button.is-black.is-focused {
@@ -1589,15 +1580,13 @@ a.box:active {
 }
 
 .button.is-light {
-    background-color: whitesmoke;
     border-color: transparent;
-    color: #363636
+    color: rgba(0,209,178,0.6)
 }
 
 .button.is-light:hover,.button.is-light.is-hovered {
-    background-color: #eeeeee;
-    border-color: transparent;
-    color: #363636
+    color: #eeeeee;
+    border-color: transparent
 }
 
 .button.is-light:focus,.button.is-light.is-focused {
@@ -1683,15 +1672,13 @@ a.box:active {
 }
 
 .button.is-dark {
-    background-color: #363636;
     border-color: transparent;
-    color: whitesmoke
+    color: rgba(0,209,178,0.6)
 }
 
 .button.is-dark:hover,.button.is-dark.is-hovered {
-    background-color: #2f2f2f;
-    border-color: transparent;
-    color: whitesmoke
+    color: #2f2f2f;
+    border-color: transparent
 }
 
 .button.is-dark:focus,.button.is-dark.is-focused {
@@ -1777,15 +1764,13 @@ a.box:active {
 }
 
 .button.is-primary {
-    background-color: #00d1b2;
     border-color: transparent;
-    color: #fff
+    color: rgba(0,209,178,0.6)
 }
 
 .button.is-primary:hover,.button.is-primary.is-hovered {
-    background-color: #00c4a7;
-    border-color: transparent;
-    color: #fff
+    color: #00c4a7;
+    border-color: transparent
 }
 
 .button.is-primary:focus,.button.is-primary.is-focused {
@@ -1871,15 +1856,13 @@ a.box:active {
 }
 
 .button.is-link {
-    background-color: #3273dc;
     border-color: transparent;
-    color: #fff
+    color: rgba(0,209,178,0.6)
 }
 
 .button.is-link:hover,.button.is-link.is-hovered {
-    background-color: #276cda;
-    border-color: transparent;
-    color: #fff
+    color: #276cda;
+    border-color: transparent
 }
 
 .button.is-link:focus,.button.is-link.is-focused {
@@ -1965,15 +1948,13 @@ a.box:active {
 }
 
 .button.is-info {
-    background-color: #209cee;
     border-color: transparent;
-    color: #fff
+    color: rgba(0,209,178,0.6)
 }
 
 .button.is-info:hover,.button.is-info.is-hovered {
-    background-color: #1496ed;
-    border-color: transparent;
-    color: #fff
+    color: #1496ed;
+    border-color: transparent
 }
 
 .button.is-info:focus,.button.is-info.is-focused {
@@ -2059,15 +2040,13 @@ a.box:active {
 }
 
 .button.is-success {
-    background-color: #23d160;
     border-color: transparent;
-    color: #fff
+    color: rgba(0,209,178,0.6)
 }
 
 .button.is-success:hover,.button.is-success.is-hovered {
-    background-color: #22c65b;
-    border-color: transparent;
-    color: #fff
+    color: #22c65b;
+    border-color: transparent
 }
 
 .button.is-success:focus,.button.is-success.is-focused {
@@ -2153,15 +2132,13 @@ a.box:active {
 }
 
 .button.is-warning {
-    background-color: #ffdd57;
     border-color: transparent;
-    color: rgba(0,0,0,0.7)
+    color: rgba(0,209,178,0.6)
 }
 
 .button.is-warning:hover,.button.is-warning.is-hovered {
-    background-color: #ffdb4a;
-    border-color: transparent;
-    color: rgba(0,0,0,0.7)
+    color: #ffdb4a;
+    border-color: transparent
 }
 
 .button.is-warning:focus,.button.is-warning.is-focused {
@@ -2247,15 +2224,13 @@ a.box:active {
 }
 
 .button.is-danger {
-    background-color: #ff3860;
     border-color: transparent;
-    color: #fff
+    color: rgba(0,209,178,0.6)
 }
 
 .button.is-danger:hover,.button.is-danger.is-hovered {
-    background-color: #ff2b56;
-    border-color: transparent;
-    color: #fff
+    color: #ff2b56;
+    border-color: transparent
 }
 
 .button.is-danger:focus,.button.is-danger.is-focused {
@@ -2677,8 +2652,6 @@ a.box:active {
     -moz-appearance: none;
     -webkit-appearance: none;
     align-items: center;
-    border: 1px solid transparent;
-    border-radius: 5px;
     box-shadow: none;
     display: inline-flex;
     font-size: 1rem;
@@ -2956,8 +2929,6 @@ a.box:active {
     -moz-appearance: none;
     -webkit-appearance: none;
     align-items: center;
-    border: 1px solid transparent;
-    border-radius: 5px;
     box-shadow: none;
     display: inline-flex;
     font-size: 1rem;
@@ -3599,8 +3570,6 @@ a.box:active {
     -moz-appearance: none;
     -webkit-appearance: none;
     align-items: center;
-    border: 1px solid transparent;
-    border-radius: 5px;
     box-shadow: none;
     display: inline-flex;
     font-size: 1rem;
@@ -4666,31 +4635,13 @@ a.dropdown-item.is-active {
 
 .fullscreen-bg {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0px;
-    z-index: -1;
-    left: 0;
-    overflow: hidden;
-    background-position: center
-}
-
-.fullscreen-bg div {
-    background: rgba(0,0,0,0.7);
-    min-height: 100%;
-    width: 100%
-}
-
-.fullscreen-bg__video,.fullscreen-bg__img {
-    position: fixed;
+    z-index: 0;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     overflow: hidden;
     object-fit: cover;
-    z-index: -1;
-    background: url("img/5.jpg");
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
@@ -4701,13 +4652,33 @@ a.dropdown-item.is-active {
     background-size: cover
 }
 
-.fullscreen-bg__img.contact {
+.fullscreen-bg.home {
+    background: url("img/bridge.jpg");
+    position: fixed
+}
+
+.fullscreen-bg.pricing {
+    background: url("img/5.jpg")
+}
+
+.fullscreen-bg.contact {
     background: url(img/6.jpg);
     background-position: center -150px
 }
 
-.fullscreen-bg__img.pricing {
-    background: url(img/hull-pricing.jpg)
+.fullscreen-bg.pricing {
+    background: url(img/5.jpg)
+}
+
+.fullscreen-bg div {
+    background: rgba(0,0,0,0.7);
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0
 }
 
 .menu {
@@ -6260,7 +6231,12 @@ a.panel-block:hover,label.panel-block:hover {
     flex-direction: row;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin-bottom: 3rem
+    margin: 3rem 0
+}
+
+.pricing-table i {
+    color: #00d1b2;
+    margin-right: 0.5rem
 }
 
 .pricing-table .ribbon {
@@ -6856,6 +6832,12 @@ a.panel-block:hover,label.panel-block:hover {
         font-size: 0.75rem;
         color: #b5b5b5
     }
+}
+
+.plan-item>div {
+    margin: auto;
+    max-width: 160px;
+    text-align: left
 }
 
 .column {
@@ -8504,6 +8486,7 @@ a.panel-block:hover,label.panel-block:hover {
 }
 
 .hero {
+    position: relative;
     align-items: stretch;
     display: flex;
     flex-direction: column;
@@ -8511,22 +8494,14 @@ a.panel-block:hover,label.panel-block:hover {
 }
 
 .hero.sub-page {
-    background-size: cover;
-    position: relative;
-    height: 100vh;
-    max-height: 500px !important
+    background: url(img/bridge.jpg);
+    background-size: cover
 }
 
 @media screen and (max-width: 767px) {
     .hero.sub-page {
         max-height: 300px !important
     }
-}
-
-.hero.sub-page>div {
-    align-items: center;
-    display: flex;
-    padding: 4rem 0 0 0
 }
 
 .hero.slogan {
@@ -9405,13 +9380,19 @@ a.panel-block:hover,label.panel-block:hover {
 .hero-body {
     flex-grow: 1;
     flex-shrink: 0;
-    padding: 1rem 0;
+    padding: 2rem 0;
     overflow: hidden
 }
 
 @media screen and (min-width: 1024px) {
     .hero-body {
         padding: 3rem 1.5rem
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .hero.main .hero-body {
+        padding-top: 5rem
     }
 }
 
@@ -9537,13 +9518,13 @@ a.panel-block:hover,label.panel-block:hover {
 
 .arrow i {
     color: rgba(0,209,178,0.8);
-    font-size: 50px
+    font-size: 30px
 }
 
 .bounce {
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite
+    -moz-animation: bounce 5s infinite;
+    -webkit-animation: bounce 5s infinite;
+    animation: bounce 5s infinite
 }
 
 #back-to-top {
