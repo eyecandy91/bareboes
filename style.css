@@ -1397,7 +1397,7 @@ a.box:active {
 
 .button.is-white {
     border-color: transparent;
-    color: rgba(0,209,178,0.6)
+    color: rgba(255,255,255,0.6)
 }
 
 .button.is-white:hover,.button.is-white.is-hovered {
@@ -1489,7 +1489,7 @@ a.box:active {
 
 .button.is-black {
     border-color: transparent;
-    color: rgba(0,209,178,0.6)
+    color: rgba(10,10,10,0.6)
 }
 
 .button.is-black:hover,.button.is-black.is-hovered {
@@ -1581,7 +1581,7 @@ a.box:active {
 
 .button.is-light {
     border-color: transparent;
-    color: rgba(0,209,178,0.6)
+    color: rgba(245,245,245,0.6)
 }
 
 .button.is-light:hover,.button.is-light.is-hovered {
@@ -1673,7 +1673,7 @@ a.box:active {
 
 .button.is-dark {
     border-color: transparent;
-    color: rgba(0,209,178,0.6)
+    color: rgba(54,54,54,0.6)
 }
 
 .button.is-dark:hover,.button.is-dark.is-hovered {
@@ -1857,7 +1857,7 @@ a.box:active {
 
 .button.is-link {
     border-color: transparent;
-    color: rgba(0,209,178,0.6)
+    color: rgba(50,115,220,0.6)
 }
 
 .button.is-link:hover,.button.is-link.is-hovered {
@@ -1949,7 +1949,7 @@ a.box:active {
 
 .button.is-info {
     border-color: transparent;
-    color: rgba(0,209,178,0.6)
+    color: rgba(32,156,238,0.6)
 }
 
 .button.is-info:hover,.button.is-info.is-hovered {
@@ -2041,7 +2041,7 @@ a.box:active {
 
 .button.is-success {
     border-color: transparent;
-    color: rgba(0,209,178,0.6)
+    color: rgba(35,209,96,0.6)
 }
 
 .button.is-success:hover,.button.is-success.is-hovered {
@@ -2133,7 +2133,7 @@ a.box:active {
 
 .button.is-warning {
     border-color: transparent;
-    color: rgba(0,209,178,0.6)
+    color: rgba(255,221,87,0.6)
 }
 
 .button.is-warning:hover,.button.is-warning.is-hovered {
@@ -2225,7 +2225,7 @@ a.box:active {
 
 .button.is-danger {
     border-color: transparent;
-    color: rgba(0,209,178,0.6)
+    color: rgba(255,56,96,0.6)
 }
 
 .button.is-danger:hover,.button.is-danger.is-hovered {
@@ -4150,7 +4150,7 @@ input:required,textarea:required {
 .title {
     color: #363636;
     font-size: 2rem;
-    font-family: "Exo 2", sans-serif;
+    font-family: "Nunito", serif;
     font-weight: 600;
     line-height: 1.125
 }
@@ -4927,7 +4927,7 @@ a.dropdown-item.is-active {
 
 .navbar {
     background-color: rgba(255,255,255,0.95);
-    font-family: "Exo 2", sans-serif;
+    font-family: "Nunito", serif;
     position: relative
 }
 
@@ -9434,7 +9434,7 @@ a.panel-block:hover,label.panel-block:hover {
 .footer {
     background-color: whitesmoke;
     padding: 3rem 1.5rem;
-    font-family: "Exo 2", sans-serif
+    font-family: "Nunito", serif
 }
 
 @media screen and (min-width: 768px), print {
