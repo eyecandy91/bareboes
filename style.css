@@ -1400,7 +1400,7 @@ a.box:active {
 .button.is-white {
     border-color: transparent;
     background: white;
-    color: white
+    color: #0a0a0a
 }
 
 .button.is-white:hover,.button.is-white.is-hovered {
@@ -1586,7 +1586,7 @@ a.box:active {
 .button.is-light {
     border-color: transparent;
     background: whitesmoke;
-    color: white
+    color: #363636
 }
 
 .button.is-light:hover,.button.is-light.is-hovered {
@@ -1679,7 +1679,7 @@ a.box:active {
 .button.is-dark {
     border-color: transparent;
     background: #363636;
-    color: white
+    color: whitesmoke
 }
 
 .button.is-dark:hover,.button.is-dark.is-hovered {
@@ -1772,7 +1772,7 @@ a.box:active {
 .button.is-primary {
     border-color: transparent;
     background: #00d1b2;
-    color: white
+    color: #fff
 }
 
 .button.is-primary:hover,.button.is-primary.is-hovered {
@@ -1865,7 +1865,7 @@ a.box:active {
 .button.is-link {
     border-color: transparent;
     background: #3273dc;
-    color: white
+    color: #fff
 }
 
 .button.is-link:hover,.button.is-link.is-hovered {
@@ -1958,7 +1958,7 @@ a.box:active {
 .button.is-info {
     border-color: transparent;
     background: #209cee;
-    color: white
+    color: #fff
 }
 
 .button.is-info:hover,.button.is-info.is-hovered {
@@ -2051,7 +2051,7 @@ a.box:active {
 .button.is-success {
     border-color: transparent;
     background: #23d160;
-    color: white
+    color: #fff
 }
 
 .button.is-success:hover,.button.is-success.is-hovered {
@@ -2144,7 +2144,7 @@ a.box:active {
 .button.is-warning {
     border-color: transparent;
     background: #ffdd57;
-    color: white
+    color: rgba(0,0,0,0.7)
 }
 
 .button.is-warning:hover,.button.is-warning.is-hovered {
@@ -2237,7 +2237,7 @@ a.box:active {
 .button.is-danger {
     border-color: transparent;
     background: #ff3860;
-    color: white
+    color: #fff
 }
 
 .button.is-danger:hover,.button.is-danger.is-hovered {
