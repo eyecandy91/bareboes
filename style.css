@@ -1295,11 +1295,13 @@ a.box:active {
     -moz-appearance: none;
     -webkit-appearance: none;
     align-items: center;
+    border-radius: 5px;
     box-shadow: none;
     display: inline-flex;
     font-size: 1rem;
+    height: 3em;
     justify-content: flex-start;
-    line-height: 1.5;
+    line-height: 2;
     padding-bottom: calc(0.375em - 1px);
     padding-left: calc(0.625em - 1px);
     padding-right: calc(0.625em - 1px);
@@ -1314,8 +1316,8 @@ a.box:active {
     color: rgba(0,209,178,0.6);
     cursor: pointer;
     justify-content: center;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
+    padding-left: 1em;
+    padding-right: 1em;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -1397,11 +1399,12 @@ a.box:active {
 
 .button.is-white {
     border-color: transparent;
-    color: rgba(255,255,255,0.6)
+    background: white;
+    color: white
 }
 
 .button.is-white:hover,.button.is-white.is-hovered {
-    color: #f9f9f9;
+    background-color: #f9f9f9;
     border-color: transparent
 }
 
@@ -1489,11 +1492,12 @@ a.box:active {
 
 .button.is-black {
     border-color: transparent;
-    color: rgba(10,10,10,0.6)
+    background: #0a0a0a;
+    color: white
 }
 
 .button.is-black:hover,.button.is-black.is-hovered {
-    color: #040404;
+    background-color: #040404;
     border-color: transparent
 }
 
@@ -1581,11 +1585,12 @@ a.box:active {
 
 .button.is-light {
     border-color: transparent;
-    color: rgba(245,245,245,0.6)
+    background: whitesmoke;
+    color: white
 }
 
 .button.is-light:hover,.button.is-light.is-hovered {
-    color: #eeeeee;
+    background-color: #eeeeee;
     border-color: transparent
 }
 
@@ -1673,11 +1678,12 @@ a.box:active {
 
 .button.is-dark {
     border-color: transparent;
-    color: rgba(54,54,54,0.6)
+    background: #363636;
+    color: white
 }
 
 .button.is-dark:hover,.button.is-dark.is-hovered {
-    color: #2f2f2f;
+    background-color: #2f2f2f;
     border-color: transparent
 }
 
@@ -1765,11 +1771,12 @@ a.box:active {
 
 .button.is-primary {
     border-color: transparent;
-    color: rgba(0,209,178,0.6)
+    background: #00d1b2;
+    color: white
 }
 
 .button.is-primary:hover,.button.is-primary.is-hovered {
-    color: #00c4a7;
+    background-color: #00c4a7;
     border-color: transparent
 }
 
@@ -1857,11 +1864,12 @@ a.box:active {
 
 .button.is-link {
     border-color: transparent;
-    color: rgba(50,115,220,0.6)
+    background: #3273dc;
+    color: white
 }
 
 .button.is-link:hover,.button.is-link.is-hovered {
-    color: #276cda;
+    background-color: #276cda;
     border-color: transparent
 }
 
@@ -1949,11 +1957,12 @@ a.box:active {
 
 .button.is-info {
     border-color: transparent;
-    color: rgba(32,156,238,0.6)
+    background: #209cee;
+    color: white
 }
 
 .button.is-info:hover,.button.is-info.is-hovered {
-    color: #1496ed;
+    background-color: #1496ed;
     border-color: transparent
 }
 
@@ -2041,11 +2050,12 @@ a.box:active {
 
 .button.is-success {
     border-color: transparent;
-    color: rgba(35,209,96,0.6)
+    background: #23d160;
+    color: white
 }
 
 .button.is-success:hover,.button.is-success.is-hovered {
-    color: #22c65b;
+    background-color: #22c65b;
     border-color: transparent
 }
 
@@ -2133,11 +2143,12 @@ a.box:active {
 
 .button.is-warning {
     border-color: transparent;
-    color: rgba(255,221,87,0.6)
+    background: #ffdd57;
+    color: white
 }
 
 .button.is-warning:hover,.button.is-warning.is-hovered {
-    color: #ffdb4a;
+    background-color: #ffdb4a;
     border-color: transparent
 }
 
@@ -2225,11 +2236,12 @@ a.box:active {
 
 .button.is-danger {
     border-color: transparent;
-    color: rgba(255,56,96,0.6)
+    background: #ff3860;
+    color: white
 }
 
 .button.is-danger:hover,.button.is-danger.is-hovered {
-    color: #ff2b56;
+    background-color: #ff2b56;
     border-color: transparent
 }
 
@@ -2652,11 +2664,13 @@ a.box:active {
     -moz-appearance: none;
     -webkit-appearance: none;
     align-items: center;
+    border-radius: 5px;
     box-shadow: none;
     display: inline-flex;
     font-size: 1rem;
+    height: 3em;
     justify-content: flex-start;
-    line-height: 1.5;
+    line-height: 2;
     padding-bottom: calc(0.375em - 1px);
     padding-left: calc(0.625em - 1px);
     padding-right: calc(0.625em - 1px);
@@ -2929,11 +2943,13 @@ a.box:active {
     -moz-appearance: none;
     -webkit-appearance: none;
     align-items: center;
+    border-radius: 5px;
     box-shadow: none;
     display: inline-flex;
     font-size: 1rem;
+    height: 3em;
     justify-content: flex-start;
-    line-height: 1.5;
+    line-height: 2;
     padding-bottom: calc(0.375em - 1px);
     padding-left: calc(0.625em - 1px);
     padding-right: calc(0.625em - 1px);
@@ -3570,11 +3586,13 @@ a.box:active {
     -moz-appearance: none;
     -webkit-appearance: none;
     align-items: center;
+    border-radius: 5px;
     box-shadow: none;
     display: inline-flex;
     font-size: 1rem;
+    height: 3em;
     justify-content: flex-start;
-    line-height: 1.5;
+    line-height: 2;
     padding-bottom: calc(0.375em - 1px);
     padding-left: calc(0.625em - 1px);
     padding-right: calc(0.625em - 1px);
@@ -5635,7 +5653,7 @@ a.dropdown-item.is-active {
     }
 
     .navbar li:not(:last-child) {
-        border-bottom: 1px dotted rgba(255,255,255,0.4)
+        border-bottom: 1px dotted rgba(255,255,255,0.05)
     }
 
     .navbar a {
@@ -5670,8 +5688,8 @@ a.dropdown-item.is-active {
     .navbar-menu.is-active a {
         display: block;
         text-align: center;
-        padding: 1rem;
-        font-size: 1.5rem
+        padding: .8rem;
+        font-size: .8rem
     }
 
     .navbar.is-fixed-bottom-touch,.navbar.is-fixed-top-touch {
