@@ -4173,6 +4173,20 @@ input:required,textarea:required {
     line-height: 1.125
 }
 
+.title.fancy {
+    position: relative;
+    display: inline-block
+}
+
+.title.fancy:after {
+    content: "";
+    position: absolute;
+    border-bottom: 5px solid #00d1b2;
+    left: 0;
+    bottom: 0;
+    width: 30px
+}
+
 .title strong {
     color: inherit;
     font-weight: inherit
