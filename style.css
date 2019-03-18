@@ -2492,18 +2492,6 @@ a.box:active {
     }
 }
 
-.container .contact-phone {
-    margin: 1.5rem
-}
-
-.container .contact-phone .is-rounded {
-    background: #00d1b2;
-    display: inline-block;
-    border-radius: 100%;
-    margin-bottom: 1rem;
-    padding: 20px
-}
-
 .content:not(:last-child) {
     margin-bottom: 1.5rem
 }
@@ -9459,6 +9447,18 @@ a.panel-block:hover,label.panel-block:hover {
 .section .container.small {
     max-width: 800px;
     margin: auto
+}
+
+.contact-phone {
+    padding: 3rem
+}
+
+.contact-phone .is-rounded {
+    background: #00d1b2;
+    display: inline-block;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+    padding: 20px
 }
 
 .footer {
