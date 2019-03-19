@@ -4690,6 +4690,7 @@ a.dropdown-item.is-active {
 
 .fullscreen-bg div {
     background: rgba(0,0,0,0.7);
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAIUlEQVQYV2NkYGD4z8DAwMiABFA4MHFkQbgOgiphuv8DAJqbAwX2ST3+AAAAAElFTkSuQmCC) repeat rgba(0,0,0,0.7);
     min-height: 100%;
     width: 100%;
     position: absolute;
