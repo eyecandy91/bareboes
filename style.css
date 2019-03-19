@@ -4958,7 +4958,8 @@ a.dropdown-item.is-active {
 }
 
 .navbar {
-    background-color: rgba(255,255,255,0.95);
+    background-color: rgba(10,10,10,0.6);
+    border-bottom: 2px solid #00d1b2;
     font-family: "Nunito", serif;
     position: relative
 }
@@ -4985,7 +4986,7 @@ a.dropdown-item.is-active {
 }
 
 .navbar a {
-    color: rgba(10,10,10,0.4)
+    color: white
 }
 
 .navbar a:hover {
@@ -4995,6 +4996,12 @@ a.dropdown-item.is-active {
 @media screen and (min-width: 768px), print {
     .navbar a:hover {
         color: #00d1b2
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar {
+        background-color: #0a0a0a
     }
 }
 
@@ -5592,7 +5599,7 @@ a.dropdown-item.is-active {
 }
 
 .navbar-item,.navbar-link {
-    color: #4a4a4a;
+    color: white;
     display: block;
     line-height: 1.5;
     padding: 0 1rem;
@@ -5698,14 +5705,30 @@ a.dropdown-item.is-active {
         display: block;
         background: #363636
     }
+}
 
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+    .navbar-menu.is-active {
+        background: #0a0a0a
+    }
+}
+
+@media screen and (max-width: 1023px) {
     .navbar-menu.is-active a {
         display: block;
         text-align: center;
         padding: .8rem;
         font-size: .8rem
     }
+}
 
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+    .navbar-menu.is-active a {
+        border-top: 2px solid #00d1b2
+    }
+}
+
+@media screen and (max-width: 1023px) {
     .navbar.is-fixed-bottom-touch,.navbar.is-fixed-top-touch {
         left: 0;
         position: fixed;
@@ -5840,11 +5863,11 @@ a.dropdown-item.is-active {
 
     .navbar-end a {
         padding: 5px 10px;
-        font-weight: 600
+        font-weight: 600;
+        color: white
     }
 
     .navbar-end a.is-active {
-        border-bottom: 1px solid #00d1b2;
         color: #00d1b2
     }
 
