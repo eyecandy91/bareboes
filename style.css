@@ -4183,7 +4183,7 @@ input:required,textarea:required {
     position: absolute;
     border-bottom: 5px solid #00d1b2;
     left: 0;
-    bottom: 0;
+    bottom: -10px;
     width: 30px
 }
 
@@ -8538,7 +8538,7 @@ a.panel-block:hover,label.panel-block:hover {
 }
 
 .hero.is-light.dotted {
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHElEQVQYV2NkYGCQYmBgeMYABYwwBjYBsEoMFQBPvgIFqyjoxwAAAABJRU5ErkJggg==) repeat whitesmoke
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHElEQVQYV2NkYGAwZmBgOMsABYwwBjYBsEoMFQBQhgIF9JIf4wAAAABJRU5ErkJggg==) repeat whitesmoke
 }
 
 .hero.sub-page {
