@@ -5684,7 +5684,19 @@ a.dropdown-item.is-active {
     .navbar-brand {
         max-width: 600px;
         margin: auto;
-        padding: 0.4rem 0
+        padding: 0.4rem 0;
+        justify-content: center
+    }
+
+    .navbar-brand .navbar-item {
+        position: absolute;
+        top: 20px
+    }
+
+    .navbar-brand .contact {
+        align-items: center;
+        display: flex;
+        margin-left: 1rem
     }
 
     .navbar>.container {
