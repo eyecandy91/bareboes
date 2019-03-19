@@ -277,7 +277,7 @@ table th {
 }
 
 .is-size-7 {
-    font-size: 0.75rem !important
+    font-size: 0.85rem !important
 }
 
 @media screen and (max-width: 767px) {
@@ -306,7 +306,7 @@ table th {
     }
 
     .is-size-7-mobile {
-        font-size: 0.75rem !important
+        font-size: 0.85rem !important
     }
 }
 
@@ -336,7 +336,7 @@ table th {
     }
 
     .is-size-7-tablet {
-        font-size: 0.75rem !important
+        font-size: 0.85rem !important
     }
 }
 
@@ -366,7 +366,7 @@ table th {
     }
 
     .is-size-7-touch {
-        font-size: 0.75rem !important
+        font-size: 0.85rem !important
     }
 }
 
@@ -396,7 +396,7 @@ table th {
     }
 
     .is-size-7-desktop {
-        font-size: 0.75rem !important
+        font-size: 0.85rem !important
     }
 }
 
@@ -426,7 +426,7 @@ table th {
     }
 
     .is-size-7-widescreen {
-        font-size: 0.75rem !important
+        font-size: 0.85rem !important
     }
 }
 
@@ -456,7 +456,7 @@ table th {
     }
 
     .is-size-7-fullhd {
-        font-size: 0.75rem !important
+        font-size: 0.85rem !important
     }
 }
 
@@ -2329,7 +2329,7 @@ a.box:active {
 
 .button.is-small {
     border-radius: 2px;
-    font-size: 0.75rem
+    font-size: 0.85rem
 }
 
 .button.is-medium {
@@ -2649,7 +2649,7 @@ a.box:active {
 }
 
 .content.is-small {
-    font-size: 0.75rem
+    font-size: 0.85rem
 }
 
 .content.is-medium {
@@ -2836,7 +2836,7 @@ a.box:active {
 
 .input.is-small,.textarea.is-small {
     border-radius: 2px;
-    font-size: 0.75rem
+    font-size: 0.85rem
 }
 
 .input.is-medium,.textarea.is-medium {
@@ -3132,7 +3132,7 @@ a.box:active {
 
 .select.is-small {
     border-radius: 2px;
-    font-size: 0.75rem
+    font-size: 0.85rem
 }
 
 .select.is-medium {
@@ -3174,7 +3174,7 @@ a.box:active {
 }
 
 .select.is-loading.is-small:after {
-    font-size: 0.75rem
+    font-size: 0.85rem
 }
 
 .select.is-loading.is-medium:after {
@@ -3438,7 +3438,7 @@ a.box:active {
 }
 
 .file.is-small {
-    font-size: 0.75rem
+    font-size: 0.85rem
 }
 
 .file.is-medium {
@@ -3656,7 +3656,7 @@ a.box:active {
 }
 
 .label.is-small {
-    font-size: 0.75rem
+    font-size: 0.85rem
 }
 
 .label.is-medium {
@@ -3669,7 +3669,7 @@ a.box:active {
 
 .help {
     display: block;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     margin-top: 0.25rem
 }
 
@@ -3864,7 +3864,7 @@ a.box:active {
     }
 
     .field-label.is-small {
-        font-size: 0.75rem;
+        font-size: 0.85rem;
         padding-top: 0.375em
     }
 
@@ -3933,7 +3933,7 @@ a.box:active {
 }
 
 .control.has-icon .input.is-small+.icon {
-    font-size: 0.75rem
+    font-size: 0.85rem
 }
 
 .control.has-icon .input.is-medium+.icon {
@@ -3965,7 +3965,7 @@ a.box:active {
 }
 
 .control.has-icons-left .input.is-small ~ .icon,.control.has-icons-left .select.is-small ~ .icon,.control.has-icons-right .input.is-small ~ .icon,.control.has-icons-right .select.is-small ~ .icon {
-    font-size: 0.75rem
+    font-size: 0.85rem
 }
 
 .control.has-icons-left .input.is-medium ~ .icon,.control.has-icons-left .select.is-medium ~ .icon,.control.has-icons-right .input.is-medium ~ .icon,.control.has-icons-right .select.is-medium ~ .icon {
@@ -4019,7 +4019,7 @@ a.box:active {
 }
 
 .control.is-loading.is-small:after {
-    font-size: 0.75rem
+    font-size: 0.85rem
 }
 
 .control.is-loading.is-medium:after {
@@ -4173,20 +4173,6 @@ input:required,textarea:required {
     line-height: 1.125
 }
 
-.title.fancy {
-    position: relative;
-    display: inline-block
-}
-
-.title.fancy:after {
-    content: "";
-    position: absolute;
-    border-bottom: 5px solid #00d1b2;
-    left: 0;
-    bottom: -10px;
-    width: 30px
-}
-
 .title strong {
     color: inherit;
     font-weight: inherit
@@ -4225,7 +4211,7 @@ input:required,textarea:required {
 }
 
 .title.is-7 {
-    font-size: 0.75rem
+    font-size: 0.85rem
 }
 
 .subtitle {
@@ -4275,7 +4261,7 @@ input:required,textarea:required {
 }
 
 .subtitle.is-7 {
-    font-size: 0.75rem
+    font-size: 0.85rem
 }
 
 .block:not(:last-child) {
@@ -4718,7 +4704,7 @@ a.dropdown-item.is-active {
 }
 
 .menu.is-small {
-    font-size: 0.75rem
+    font-size: 0.85rem
 }
 
 .menu.is-medium {
@@ -5013,7 +4999,7 @@ a.dropdown-item.is-active {
 @media screen and (max-width: 1023px) {
     .navbar.is-white .navbar-brand {
         max-width: 500px;
-        margin: autoe
+        margin: auto
     }
 }
 
@@ -5063,7 +5049,7 @@ a.dropdown-item.is-active {
 @media screen and (max-width: 1023px) {
     .navbar.is-black .navbar-brand {
         max-width: 500px;
-        margin: autoe
+        margin: auto
     }
 }
 
@@ -5113,7 +5099,7 @@ a.dropdown-item.is-active {
 @media screen and (max-width: 1023px) {
     .navbar.is-light .navbar-brand {
         max-width: 500px;
-        margin: autoe
+        margin: auto
     }
 }
 
@@ -5163,7 +5149,7 @@ a.dropdown-item.is-active {
 @media screen and (max-width: 1023px) {
     .navbar.is-dark .navbar-brand {
         max-width: 500px;
-        margin: autoe
+        margin: auto
     }
 }
 
@@ -5213,7 +5199,7 @@ a.dropdown-item.is-active {
 @media screen and (max-width: 1023px) {
     .navbar.is-primary .navbar-brand {
         max-width: 500px;
-        margin: autoe
+        margin: auto
     }
 }
 
@@ -5263,7 +5249,7 @@ a.dropdown-item.is-active {
 @media screen and (max-width: 1023px) {
     .navbar.is-link .navbar-brand {
         max-width: 500px;
-        margin: autoe
+        margin: auto
     }
 }
 
@@ -5313,7 +5299,7 @@ a.dropdown-item.is-active {
 @media screen and (max-width: 1023px) {
     .navbar.is-info .navbar-brand {
         max-width: 500px;
-        margin: autoe
+        margin: auto
     }
 }
 
@@ -5363,7 +5349,7 @@ a.dropdown-item.is-active {
 @media screen and (max-width: 1023px) {
     .navbar.is-success .navbar-brand {
         max-width: 500px;
-        margin: autoe
+        margin: auto
     }
 }
 
@@ -5413,7 +5399,7 @@ a.dropdown-item.is-active {
 @media screen and (max-width: 1023px) {
     .navbar.is-warning .navbar-brand {
         max-width: 500px;
-        margin: autoe
+        margin: auto
     }
 }
 
@@ -5463,7 +5449,7 @@ a.dropdown-item.is-active {
 @media screen and (max-width: 1023px) {
     .navbar.is-danger .navbar-brand {
         max-width: 500px;
-        margin: autoe
+        margin: auto
     }
 }
 
@@ -5874,7 +5860,6 @@ a.dropdown-item.is-active {
 
     .navbar-end a {
         padding: 5px 10px;
-        font-weight: 600;
         color: white
     }
 
@@ -5996,7 +5981,7 @@ a.dropdown-item.is-active {
 }
 
 .nav-extra .navbar-end {
-    font-size: 0.8rem
+    font-size: 0.7rem
 }
 
 .nav-extra>div {
@@ -6280,7 +6265,7 @@ a.panel-block:hover,label.panel-block:hover {
 }
 
 .tabs.is-small {
-    font-size: 0.75rem
+    font-size: 0.85rem
 }
 
 .tabs.is-medium {
@@ -6432,7 +6417,7 @@ a.panel-block:hover,label.panel-block:hover {
 .pricing-table .pricing-plan .plan-price {
     background-color: whitesmoke;
     color: #4a4a4a;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-weight: 400;
     padding: .75em;
     align-content: center;
@@ -6446,10 +6431,11 @@ a.panel-block:hover,label.panel-block:hover {
 
 .pricing-table .pricing-plan .plan-price .plan-price-amount .plan-price-currency {
     vertical-align: super;
-    font-size: 1rem !important;
+    font-size: 0.85rem !important;
     font-weight: 400 !important;
     color: #4a4a4a;
-    margin-right: .25rem
+    display: block;
+    line-height: 1
 }
 
 .pricing-table .pricing-plan .plan-footer {
@@ -6907,7 +6893,7 @@ a.panel-block:hover,label.panel-block:hover {
         content: attr(data-feature);
         display: block;
         font-weight: 600;
-        font-size: 0.75rem;
+        font-size: 0.85rem;
         color: #b5b5b5
     }
 }
