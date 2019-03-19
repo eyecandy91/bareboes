@@ -6396,7 +6396,7 @@ a.panel-block:hover,label.panel-block:hover {
 }
 
 .pricing-table .pricing-plan .plan-price {
-    background-color: white;
+    background-color: whitesmoke;
     color: #4a4a4a;
     font-size: 0.75rem;
     font-weight: 400;
@@ -6880,7 +6880,6 @@ a.panel-block:hover,label.panel-block:hover {
 
 .plan-item>div {
     margin: auto;
-    max-width: 160px;
     text-align: left
 }
 
@@ -9337,8 +9336,8 @@ a.panel-block:hover,label.panel-block:hover {
 
 @media screen and (min-width: 1024px) {
     .hero.is-medium .hero-body {
-        padding-bottom: 4rem;
-        padding-top: 4rem
+        padding-bottom: 3rem;
+        padding-top: 3rem
     }
 }
 
@@ -9434,7 +9433,7 @@ a.panel-block:hover,label.panel-block:hover {
 
 @media screen and (min-width: 1024px) {
     .hero-body {
-        padding: 3rem 1.5rem
+        padding: 1.5rem
     }
 }
 
