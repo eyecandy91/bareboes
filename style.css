@@ -8537,6 +8537,10 @@ a.panel-block:hover,label.panel-block:hover {
     justify-content: space-between
 }
 
+.hero.is-light.dotted {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHElEQVQYV2NkYGCQYmBgeMYABYwwBjYBsEoMFQBPvgIFqyjoxwAAAABJRU5ErkJggg==) repeat whitesmoke
+}
+
 .hero.sub-page {
     background: url(img/bridge.jpg);
     background-size: cover
