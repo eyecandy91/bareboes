@@ -4685,7 +4685,7 @@ a.dropdown-item.is-active {
 }
 
 .fullscreen-bg.home {
-    background: url("img/bridge.jpg");
+    background: url("img/hull.jpg");
     position: fixed
 }
 
@@ -8572,17 +8572,6 @@ a.panel-block:hover,label.panel-block:hover {
 
 .hero.is-light.dotted {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHElEQVQYV2NkYGAwZmBgOMsABYwwBjYBsEoMFQBQhgIF9JIf4wAAAABJRU5ErkJggg==) repeat whitesmoke
-}
-
-.hero.sub-page {
-    background: url(img/bridge.jpg);
-    background-size: cover
-}
-
-@media screen and (max-width: 767px) {
-    .hero.sub-page {
-        max-height: 300px !important
-    }
 }
 
 .hero.slogan {
