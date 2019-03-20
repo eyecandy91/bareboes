@@ -4665,27 +4665,25 @@ a.dropdown-item.is-active {
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
-    background-position: bottom;
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 .fullscreen-bg.home {
-    background: url("img/hull.jpg");
+    background-image: url("img/hull.jpg");
     position: fixed
 }
 
-.fullscreen-bg.pricing {
-    background: url("img/5.jpg")
+@media screen and (max-width: 1023px) {
+    .fullscreen-bg.home {
+        background-image: url("img/hull-mobile.jpg")
+    }
 }
 
 .fullscreen-bg.contact {
-    background: url(img/6.jpg);
-    background-position: center -150px
-}
-
-.fullscreen-bg.pricing {
-    background: url(img/5.jpg)
+    background-image: url(img/6.jpg);
+    background-image-position: center -150px
 }
 
 .fullscreen-bg div {
