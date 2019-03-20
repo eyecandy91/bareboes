@@ -8315,6 +8315,13 @@ a.panel-block:hover,label.panel-block:hover {
     margin-top: -0.75rem
 }
 
+@media screen and (max-width: 1023px) {
+    .columns.reverse-mobile {
+        display: flex;
+        flex-direction: column-reverse
+    }
+}
+
 .columns:last-child {
     margin-bottom: -0.75rem
 }
